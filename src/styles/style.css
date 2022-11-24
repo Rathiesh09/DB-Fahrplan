@@ -49,7 +49,7 @@ body .container-timeline .from, body .container-timeline .to {
   font-weight: bold;
 }
 body .container-timeline .starttime, body .container-timeline .endtime {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 body .container-timeline .to, body .container-timeline .endtime {
