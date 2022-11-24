@@ -1,0 +1,131 @@
+
+body{
+    color: var(--color4);
+    font-family: "DB Screen Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    h1{
+        margin: 0 0 50px 0; 
+        font-size: 32px; 
+        font-weight: bold; 
+    }
+    
+    h1 span{
+        border-bottom: 3px solid #EC0016;
+        margin-right: 10px;
+    }
+
+    .header {
+        margin: 50px 0 50px 0;
+
+        button{
+            border: 1px solid #EC0016;
+            background-color: #EC0016;
+            color: #fff;
+            border-radius: 5px;
+            line-height: 1;
+            padding: 8px 12px;
+            margin: 0 20px 20px 0;
+            text-align: center;
+            transition: color 0.3s ease-in, background-color 0.3s ease-in;
+            width: 150px;
+            -webkit-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+            -moz-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+            -ms-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+            -o-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+            opacity: 0.3;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+    
+            &.selected{
+                opacity: 1;
+            }
+            
+        }
+   
+    }
+
+    .container-timeline {
+        margin-bottom: 30px;
+
+        .from, .to {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .starttime, .endtime {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .to, .endtime {
+            text-align: right;
+
+        }
+
+        .timeline {
+            border-top: 4px solid #e3e3e3;
+            list-style: none;
+            margin-bottom: 15px;
+            position: relative;
+            height: 10px;
+            
+            &:before {
+                background: #fff;
+                content: "";
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                position: absolute;
+                left: 0px;
+                bottom: 0;
+                border: 2px solid #e3e3e3;
+            }
+            
+            &:after {
+                background: #fff;
+                content: "";
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                border: 2px solid #e3e3e3;
+            }
+        }
+
+        .hours {
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+
+    body {
+        h1 {
+            font-size: 28px ;
+        }
+
+    } 
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    body .container-timeline .from, body .container-timeline .to{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    body .container-timeline .from, body .container-timeline .to{
+        font-size: 13px;
+    }
+}

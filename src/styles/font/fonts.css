@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'DB Screen Sans';
+	font-style: normal;
+	src: url('dbscreensans-regular.woff') format('woff') /* Super Modern Browsers */
+		 
+}
+
+@font-face {
+	font-family: 'DB Screen Sans';
+	font-style: normal;
+	src: url('dbscreensans-medium.woff') format('woff') /* Super Modern Browsers */
+		 
+}
+
+ 
+@font-face {
+	font-family: 'DB Screen Sans Bold';
+	font-style: normal;
+	src: url('dbscreensanscond-bold.woff') format('woff') /* Super Modern Browsers */
+		 
+}

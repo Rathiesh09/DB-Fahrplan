@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DB Fahrplananzeige</title>
+	<link rel="shortcut icon" href="#">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/font/fonts.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col header">
+				<h1><span>DB</span>Fahrplananzeige</h1>
+				<button id="from">von Frankfurt</button>
+				<button id="to">nach Frankfurt </button>
+			</div>
+		</div>
+    </div>
+ 	<template id="rides">
+		<div class="container">
+			<div class="container-timeline">
+				<div class="row">
+					<div class="col-6 from"></div>
+					<div class="col-6 to"></div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="hours"></div>
+						<div class="timeline"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 starttime"></div>
+					<div class=" col-6 endtime"></div>
+				</div>
+			</div>
+		</div>
+	</template>
+	<div id="timetable"></div>
+</body>
+<script type="module" src="scripts/interaction-handler-service.js"></script>
+<script type="module" src="scripts/data-service.js"></script>
+</html>

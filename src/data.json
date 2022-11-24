@@ -1,0 +1,63 @@
+[
+    {
+        "from": "Frankfurt (Main) Hbf",
+        "to": "Berlin Hbf",
+        "starttime": "11:40",
+        "endtime": "16:20"
+    },
+    {
+        "from": "Frankfurt (Main) Hbf",
+        "to": "Köln Hbf",
+        "starttime": "12:42",
+        "endtime": "14:30"
+    },
+    {
+        "from": "Frankfurt (Main) Hbf",
+        "to": "Hamburg Hbf",
+        "starttime": "04:40",
+        "endtime": "11:20"
+    },
+    {
+        "from": "Frankfurt (Main) Hbf",
+        "to": "Darmstadt",
+        "starttime": "09:40",
+        "endtime": "10:30"
+    },
+    {
+        "from": "Frankfurt (Main) Hbf",
+        "to": "Hamburg Hbf",
+        "starttime": "08:40",
+        "endtime": "13:20"
+    },
+    {
+        "from": "Düsseldorf Hbf",
+        "to": "Frankfurt (Main) Hbf",
+        "starttime": "09:40",
+        "endtime": "14:10"
+    },
+    {
+        "from": "Wiesbaden",
+        "to": "Frankfurt (Main) Hbf",
+        "starttime": "10:10",
+        "endtime": "11:38"
+    },
+    {
+        "from": "Bremen",
+        "to": "Frankfurt (Main) Hbf",
+        "starttime": "15:10",
+        "endtime": "19:20"
+    },
+    {
+        "from": "München",
+        "to": "Frankfurt (Main) Hbf",
+        "starttime": "12:00",
+        "endtime": "16:20"
+    },
+    {
+        "from": "Stuttgart",
+        "to": "Frankfurt (Main) Hbf",
+        "starttime": "12:00",
+        "endtime": "17:19"
+    }
+     
+]
