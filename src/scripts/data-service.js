@@ -67,10 +67,12 @@ export async function getSort(time){
         if (a.hours < b.hours){
             return -1;
         }   
-        if (a.hours > b.hours){
+        else if (a.hours > b.hours){
             return 1;
         }   
-        return 0;
+        else{
+            return 0;
+        }
     });
 
     return showData(time);
