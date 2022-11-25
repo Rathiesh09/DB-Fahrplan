@@ -4,7 +4,7 @@ const data = await fetchData();
 const container = document.getElementById("timetable");
  
 // Get data from Frankfurt
-export async function getFromData (){
+export function getFromData (){
 
     var element = document.getElementById("from");
     element.classList.add("selected"); 
@@ -17,7 +17,7 @@ export async function getFromData (){
 }
 
 // Get data to Frankfurt
-export async function getToData(){
+export function getToData(){
 
     var element = document.getElementById("to");
     element.classList.add("selected"); 
@@ -30,7 +30,7 @@ export async function getToData(){
 }
 
 // Get data Hours
-export async function getdiffHours(time){
+export function getdiffHours(time){
 
     time.forEach(element => {
         element.hours = "";
@@ -61,7 +61,7 @@ export async function getdiffHours(time){
 }
  
 // Sort to Hour
-export async function getSort(time){
+export function getSort(time){
 
     time.sort(function(a, b) {
         if (a.hours < b.hours){
@@ -79,7 +79,7 @@ export async function getSort(time){
 }
 
 // show Data
-export async function showData(time){
+export function showData(time){
      
     container.innerHTML = '';
     time.forEach(element => {
